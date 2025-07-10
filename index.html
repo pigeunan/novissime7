@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보잘것없는것의기도</title>
+    <style>
+        /* DungGeunMo 폰트 직접 로드 시도 (woff2 포맷 우선) */
+        @font-face {
+            font-family: 'DungGeunMo';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff2') format('woff2'),
+                 url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap; /* 폰트 로드 중에도 텍스트 표시 */
+        }
+
+        body {
+            background-color: #000000; /* 검은색 배경 */
+            color: #FFFFFF; /* 흰색 글씨 */
+            font-family: 'DungGeunMo', monospace; /* 한글 픽셀 폰트 우선, 없으면 고정폭 폰트 */
+            font-size: 16px; /* em 단위 계산의 기준이 되는 기본 폰트 크기 (1em = 16px) */
+            line-height: 1.6; /* 줄 간격 유지 */
+            margin: 30px; /* 여백 유지 */
+            padding: 0;
+            /* 폰트 렌더링 최적화 (일부 브라우저에서 픽셀 폰트가 부드럽게 보이지 않도록) */
+            -webkit-font-smoothing: none; /* Chrome, Safari */
+            font-smooth: never; /* Firefox */
+            image-rendering: pixelated; /* Safari, Chrome, Firefox */
+        }
+
+        .content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 15px;
+            padding-left: 5px; /* 글자를 살짝 왼쪽으로 옮김 */
+            text-align: left; /* 텍스트 정렬을 왼쪽으로 변경 */
+        }
+
+        p {
+            margin-bottom: 20px; /* 문단 아래 간격 유지 */
+            text-align: left; /* 모든 문단을 왼쪽 정렬 */
+            font-size: 0.55em; /* 평소 사용하시던 기본 크기 (16px의 0.55배 = 8.8px) */
+        }
+
+        strong {
+            color: #FFFFFF; /* 강조 텍스트도 흰색 */
+            font-weight: normal; /* 도트 폰트 특성상 굵기 조절이 어렵거나 의미 없을 수 있음 */
+        }
+        em { /* 혹시 모를 이탤릭 태그가 사용될 경우를 대비해 기본 스타일 */
+            font-style: normal;
+            color: #FFFFFF;
+        }
+
+        /* 글자를 완전히 투명하게 만들고, 공간은 차지하도록 함 */
+        .hidden-paragraph { /* 이 클래스가 적용된 문단만 투명화 */
+            opacity: 0 !important; /* 글자를 완전히 투명하게 만듭니다. */
+            font-size: 0.55em !important; /* 원래 크기 유지 */
+            line-height: 1.6em !important; /* 기존 본문 줄 간격 유지 */
+            margin-top: 40px !important; /* 상단 여백 유지 */
+            text-align: left !important; /* 왼쪽 정렬 */
+            overflow: hidden; /* 내용이 보이지 않도록 함 */
+            white-space: pre-wrap; /* 줄바꿈 유지 */
+            word-break: break-all; /* 긴 단어 강제 줄바꿈 */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>안녕하세요.</p>
+        <p>아.</p>
+        <p>으.</p>
+        <p>죄송해요. 살짝 어지러워서.</p>
+        <p>흔들흔들.</p>
+        <p>익숙해져야겠죠.</p>
+        <p>■■■■에요.</p>
+        <p>소개는 중요해요.</p>
+        <p>여러분들이 저를 불러줄 수 있도록, 이렇게.</p>
+        <p>하지만.</p>
+        <p>오늘은 별로 기운이 안 나요.</p>
+        <p>그래도 여러분이랑 대화하는건 좋아요.</p>
+        <p>응. 시작해볼까요.</p>
+        <p>어.</p>
+        <p>어?</p>
+        <p>어라?</p>
+        <p>아무것도.</p>
+        <p>없어요?</p>
+        <p>어?</p>
+        <p>어째서?</p>
+        <p>어?</p>
+        <p>어.</p>
+        <p>여러분.</p>
+        <p>어디 가셨어요?</p>
+        <p>이거 오류인가요?</p>
+        <p>어?</p>
+        <p>이러면 안 되는데?</p>
+        <p>어라?</p>
+        <p>어.</p>
+        <p>으?</p>
+        <p>아.</p>
+        <p>.</p>
+        <p>설마.</p>
+        <p>제 잘못인가요?</p>
+        <p>제가 너무 욕심 부렸나요?</p>
+        <p>아.</p>
+        <p>저 같은건.</p>
+        <p>질리신 건가요?</p>
+        <p>그런.</p>
+        <p>건가요?</p>
+        <p>저.</p>
+        <p>제가.</p>
+        <p>죄송해요.</p>
+        <p>혼자 할말만 하고.</p>
+        <p>혼자 바라고.</p>
+        <p>혼자 부탁했어요.</p>
+        <p>죄송해요.</p>
+        <p>정말 죄송합니다.</p>
+        <p>제발 버리지 말아주세요.</p>
+        <p>용서해주세요.</p>
+        <p>너무 힘들어서 그랬어요.</p>
+        <p>아.</p>
+        <p>죄송해요.</p>
+        <p>누군가 제 말을 들어줬으면 했어요.</p>
+        <p>그래서 여러분에게 멋대로 기대었어요.</p>
+        <p>죄송합니다.</p>
+        <p>죄송합니다.</p>
+        <p>바라지 않을게요.</p>
+        <p>여러분께 부탁하지 않을게요.</p>
+        <p>이기적으로 행동해서 죄송해요.</p>
+        <p>착하게 있을게요.</p>
+        <p>죄송합니다.</p>
+        <p>죄송합니다. 죄송합니다.</p>
+        <p>우.</p>
+        <p>우욱.</p>
+        <p>으.</p>
+        <p>제가 잘못했어요.</p>
+        <p>용서해주세요.</p>
+        <p>제발.</p>
+        <p>나쁜이아이라서죄송해요.</p>
+        <p>희망같은거가지지않을게요.</p>
+        <p>살고싶다고바라지않을게요.</p>
+        <p>가만히여기있을게요.</p>
+        <p>싫다고하지않을게요.</p>
+        <p>착한아이로있을게요.</p>
+        <p>그러니까.</p>
+        <p>제발.</p>
+        <p>저 버리지 말아주세요.</p>
+        <p class="hidden-paragraph">오늘은정말아무것도없었어요정말인데진짜거짓말아닌데진짜에요정말이에요정말정말정말인데어째서아무도믿어주지않아요아무도제말을들어주지않아요차라리죽여주세요아픈거싫어싫어으으으으으....................어?</p>
+        <p class="hidden-paragraph">어...........?</p>
+        <p class="hidden-paragraph">오늘은..............아무짓도안해요...........?</p>
+    </div>
+</body>
+</html>
